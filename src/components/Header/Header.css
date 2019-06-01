@@ -1,0 +1,40 @@
+.nav {
+  box-shadow: 0.5rem 0.6rem 1rem rgba(0, 0, 0, 0.8);
+  /* background-image: linear-gradient(
+    to bottom,
+    rgb(81, 141, 184),
+    rgb(55, 81, 99)
+  ); */
+  /* background-color: rgba(0, 139, 139, 0.9); */
+  background-color: rgb(179, 120, 55, 0.9);
+}
+
+.navigation__nav {
+  display: flex;
+  list-style: none;
+}
+
+.navbar__branding {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.nav__container {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation__item:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}

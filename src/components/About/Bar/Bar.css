@@ -1,0 +1,29 @@
+.progress-bar {
+  position: relative;
+  height: 50px;
+  width: 90%;
+  border: 4px solid rgba(0, 0, 0, 0.6);
+  margin-top: 2rem;
+  overflow: hidden;
+  border-radius: 40px;
+  box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.5);
+}
+
+.filler {
+  background: rgb(179, 120, 55);
+  height: 100%;
+  border-radius: inherit;
+  transition: width 0.2s ease-in;
+}
+
+.tools {
+  position: absolute;
+  font-size: 1.3rem;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  color: rgba(255, 255, 255, 0.7);
+
+  transform: translateY(25%);
+  overflow: hidden;
+}

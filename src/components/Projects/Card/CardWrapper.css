@@ -1,0 +1,10 @@
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem 2rem;
+  justify-items: center;
+  align-items: center;
+  height: 30rem;
+  width: 80%;
+  margin: 2rem auto 8rem auto;
+}

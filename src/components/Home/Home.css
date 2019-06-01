@@ -1,0 +1,96 @@
+.home {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1;
+  background-color: rgb(44, 44, 66);
+}
+.home-image {
+  height: 100vh;
+  width: auto;
+  animation: revealContent 2.5s ease-in;
+}
+.home-content {
+  align-self: center;
+  text-align: center;
+  animation: slideContent 2s linear;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 0.5rem 0.5rem 0.6rem rgba(0, 0, 0, 0.7);
+}
+.home-name {
+  color: rgb(214, 214, 15);
+}
+.home-intro {
+  margin-bottom: 2rem;
+}
+.home-description {
+  font-size: 1.3rem;
+}
+.arrow {
+  position: relative;
+  padding: 10px 20px;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.6s ease-out;
+}
+
+.arrow:hover {
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.4);
+}
+.arrow:hover .bounce {
+  color: rgb(0, 0, 0);
+}
+
+.bounce {
+  animation: bounce 1.3s infinite;
+  margin-top: 3rem;
+  color: rgb(255, 255, 255, 0.8);
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  50% {
+    transform: translateY(-10px);
+    opacity: 1;
+  }
+}
+
+@keyframes revealContent {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 20;
+  }
+  80% {
+    opacity: 60;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes slideContent {
+  0% {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  25% {
+    transform: translateY(100px);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 0.6;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
