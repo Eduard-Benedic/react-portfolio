@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1;
-  background-color: rgb(44, 44, 66);
+  background-color: rgb(44, 44, 66, 0.9);
 }
 .home-image {
   height: 100vh;
@@ -24,7 +24,7 @@
   margin-bottom: 2rem;
 }
 .home-description {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 .arrow {
   position: relative;

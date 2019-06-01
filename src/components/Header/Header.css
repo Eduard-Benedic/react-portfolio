@@ -1,11 +1,5 @@
 .nav {
   box-shadow: 0.5rem 0.6rem 1rem rgba(0, 0, 0, 0.8);
-  /* background-image: linear-gradient(
-    to bottom,
-    rgb(81, 141, 184),
-    rgb(55, 81, 99)
-  ); */
-  /* background-color: rgba(0, 139, 139, 0.9); */
   background-color: rgb(179, 120, 55, 0.9);
 }
 
