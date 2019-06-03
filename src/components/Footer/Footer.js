@@ -8,7 +8,10 @@ export default class Footer extends Component {
       <footer className="footer" id="contact">
         <Zoom right cascade>
           <div className="footer-head">
-            Feel free to get in touch, I have a great story to tell
+            <p className="footer-head-text">
+              {" "}
+              Feel free to get in touch, I have a great story to tell
+            </p>
           </div>
         </Zoom>
         <div className="footer-body">
