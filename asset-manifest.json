@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/Eduard-Benedic/react-portfolio.git/static/css/main.72cb9c6e.chunk.css",
-    "main.js": "/Eduard-Benedic/react-portfolio.git/static/js/main.292bd59b.chunk.js",
-    "main.js.map": "/Eduard-Benedic/react-portfolio.git/static/js/main.292bd59b.chunk.js.map",
+    "main.css": "/Eduard-Benedic/react-portfolio.git/static/css/main.742bf374.chunk.css",
+    "main.js": "/Eduard-Benedic/react-portfolio.git/static/js/main.5d117b6d.chunk.js",
+    "main.js.map": "/Eduard-Benedic/react-portfolio.git/static/js/main.5d117b6d.chunk.js.map",
     "runtime~main.js": "/Eduard-Benedic/react-portfolio.git/static/js/runtime~main.8b9f3b76.js",
     "runtime~main.js.map": "/Eduard-Benedic/react-portfolio.git/static/js/runtime~main.8b9f3b76.js.map",
-    "static/js/2.855eeeb6.chunk.js": "/Eduard-Benedic/react-portfolio.git/static/js/2.855eeeb6.chunk.js",
-    "static/js/2.855eeeb6.chunk.js.map": "/Eduard-Benedic/react-portfolio.git/static/js/2.855eeeb6.chunk.js.map",
+    "static/js/2.d9f125c7.chunk.js": "/Eduard-Benedic/react-portfolio.git/static/js/2.d9f125c7.chunk.js",
+    "static/js/2.d9f125c7.chunk.js.map": "/Eduard-Benedic/react-portfolio.git/static/js/2.d9f125c7.chunk.js.map",
     "index.html": "/Eduard-Benedic/react-portfolio.git/index.html",
-    "precache-manifest.434ebb4125d3f6d3c404aa5b6761b39d.js": "/Eduard-Benedic/react-portfolio.git/precache-manifest.434ebb4125d3f6d3c404aa5b6761b39d.js",
+    "precache-manifest.57b02650fbb0ccd1b445553bcff51541.js": "/Eduard-Benedic/react-portfolio.git/precache-manifest.57b02650fbb0ccd1b445553bcff51541.js",
     "service-worker.js": "/Eduard-Benedic/react-portfolio.git/service-worker.js",
-    "static/css/main.72cb9c6e.chunk.css.map": "/Eduard-Benedic/react-portfolio.git/static/css/main.72cb9c6e.chunk.css.map",
-    "static/media/Home.css": "/Eduard-Benedic/react-portfolio.git/static/media/img-back-large.1bc9c203.jpg",
-    "static/media/img-website.png": "/Eduard-Benedic/react-portfolio.git/static/media/img-website.0ce541bb.png",
-    "static/media/img2.jpg": "/Eduard-Benedic/react-portfolio.git/static/media/img2.5d67ea91.jpg"
+    "static/css/main.742bf374.chunk.css.map": "/Eduard-Benedic/react-portfolio.git/static/css/main.742bf374.chunk.css.map",
+    "static/media/img1.jpg": "/Eduard-Benedic/react-portfolio.git/static/media/img1.e23afd1f.jpg",
+    "static/media/img2.jpeg": "/Eduard-Benedic/react-portfolio.git/static/media/img2.28578dbe.jpeg",
+    "static/media/img3.jpg": "/Eduard-Benedic/react-portfolio.git/static/media/img3.953a0885.jpg",
+    "static/media/img4.jpg": "/Eduard-Benedic/react-portfolio.git/static/media/img4.3e5e59e3.jpg",
+    "static/media/img5.jpg": "/Eduard-Benedic/react-portfolio.git/static/media/img5.62b28405.jpg",
+    "static/media/img6.jpg": "/Eduard-Benedic/react-portfolio.git/static/media/img6.e2ab679a.jpg",
+    "static/media/img7.jpg": "/Eduard-Benedic/react-portfolio.git/static/media/img7.810f16c1.jpg",
+    "static/media/imgWebsiteOfficial1.png": "/Eduard-Benedic/react-portfolio.git/static/media/imgWebsiteOfficial1.1398cb60.png"
   }
 }
