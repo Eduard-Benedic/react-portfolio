@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f18d45426e5a448f3eaf767010408977",
+    "revision": "6646a224d62f2ba99a1ad66cfb40897f",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "0d4a471f88c19740b944",
-    "url": "/react-portfolio/static/css/main.f48de3f3.chunk.css"
+    "revision": "f9f22ea7fb366a9197cb",
+    "url": "/react-portfolio/static/css/main.04e48918.chunk.css"
   },
   {
-    "revision": "fc1f2c0e9103a648f822",
-    "url": "/react-portfolio/static/js/2.d9f125c7.chunk.js"
+    "revision": "da1863447978c39b5051",
+    "url": "/react-portfolio/static/js/2.23597d5f.chunk.js"
   },
   {
-    "revision": "0d4a471f88c19740b944",
-    "url": "/react-portfolio/static/js/main.c7f2089c.chunk.js"
+    "revision": "f9f22ea7fb366a9197cb",
+    "url": "/react-portfolio/static/js/main.7b2d8e79.chunk.js"
   },
   {
     "revision": "94872cf7e81768d148a3",
@@ -50,5 +50,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1398cb6056bea730a25174f0737adcac",
     "url": "/react-portfolio/static/media/imgWebsiteOfficial1.1398cb60.png"
+  },
+  {
+    "revision": "6a128ddae2e17662f27178244cb0db1e",
+    "url": "/react-portfolio/static/media/round-picture.6a128dda.jpg"
   }
 ]);
