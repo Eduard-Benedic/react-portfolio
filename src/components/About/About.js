@@ -25,8 +25,8 @@ class About extends Component {
                 </Fade>
                 <div className="features-container">
                   <Zoom>
-                    {value.featureBox.map(feature => (
-                      <FeatureBox feature={feature} />
+                    {value.featureBox.map((feature, index) => (
+                      <FeatureBox feature={feature} key={index} />
                     ))}
                   </Zoom>
                 </div>
@@ -49,8 +49,8 @@ class About extends Component {
                 </Fade>
                 <div className="skills" id="skills">
                   <Fade right>
-                    {value.skills.map(progressbar => (
-                      <Bar percentage={progressbar} />
+                    {value.skills.map((progressbar, index) => (
+                      <Bar percentage={progressbar} key={index} />
                     ))}
                   </Fade>
                 </div>

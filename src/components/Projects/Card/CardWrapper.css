@@ -4,7 +4,21 @@
   grid-gap: 2rem 2rem;
   justify-items: center;
   align-items: center;
-  height: 30rem;
+  height: 25rem;
   width: 80%;
   margin: 2rem auto 8rem auto;
+}
+
+@media (max-width: 800px) {
+  .card-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .card-wrapper {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
 }

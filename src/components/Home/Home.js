@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 
-import imgWebsite from "./img-website.png";
+import imgWebsite from "./imgWebsiteOfficial1.png";
 import { FaArrowDown } from "react-icons/fa";
 
 const Home = () => {

@@ -65,3 +65,12 @@
   text-align: center;
   margin-top: 3rem;
 }
+
+@media (max-width: 800px) {
+  .footer-head {
+    font-size: 1.4rem;
+    width: 72%;
+    text-align: center;
+    margin: 1rem auto 1rem auto;
+  }
+}

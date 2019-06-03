@@ -29,7 +29,7 @@ export default class Footer extends Component {
                 href="https://www.linkedin.com/in/eduard-benedic-94b40710b/"
               >
                 {" "}
-                <i class="fab fa-linkedin-in"> </i>
+                <i className="fab fa-linkedin-in"> </i>
               </a>
 
               <a
@@ -37,7 +37,7 @@ export default class Footer extends Component {
                 href="https://github.com/Eduard-Benedic/"
               >
                 {" "}
-                <i class="fab fa-github"> </i>
+                <i className="fab fa-github"> </i>
               </a>
             </div>
           </Zoom>

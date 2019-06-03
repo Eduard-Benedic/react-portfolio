@@ -5,17 +5,15 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "particles.js": "^2.0.0",
     "react": "^16.8.6",
-    "react-accessible-accordion": "^3.0.0",
+    "react-burger-menu": "^2.6.10",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
-    "react-particles-js": "^2.6.0",
     "react-reveal": "^1.2.2",
     "react-scripts": "3.0.0",
     "react-scrollspy-nav": "^1.2.1",
-    "react-tabs": "^3.0.0",
-    "uuid": "^3.3.2"
+    "react-socks": "^1.0.1",
+    "react-tabs": "^3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

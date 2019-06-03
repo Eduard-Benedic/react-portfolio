@@ -5,6 +5,7 @@ import img3 from "./img/img3.jpg";
 import img4 from "./img/img4.jpg";
 import img5 from "./img/img5.jpg";
 import img6 from "./img/img6.jpg";
+import img7 from "./img/img7.jpg";
 
 const Context = React.createContext();
 
@@ -21,10 +22,15 @@ export class Provider extends Component {
             ["CSS", "Sass", "HTML", "JavaScript"],
             ["Bootstrap", "jQuery", "HTML", "CSS"]
           ],
-          links: [
+          linksProject: [
             "https://eduard-benedic.github.io/travel-during-autumn/",
             "https://eduard-benedic.github.io/chromebook/",
             "https://eduard-benedic.github.io/bootstrap-I/"
+          ],
+          linksGithub: [
+            "https://github.com/Eduard-Benedic/travel-during-autumn",
+            "https://github.com/Eduard-Benedic/chromebook",
+            "https://github.com/Eduard-Benedic/bootstrap-I"
           ],
           images: [img1, img2, img3]
         },
@@ -35,37 +41,40 @@ export class Provider extends Component {
             ["JavaScript", "Sass", "JavaScript"],
             ["JavaScript", "Sass", "JavaScript"]
           ],
-          links: [
+          linksProject: [
             "https://eduard-benedic.github.io/book-list/",
             "https://eduard-benedic.github.io/loan-calculator/",
             "https://eduard-benedic.github.io/github-finder/"
+          ],
+          linksGithub: [
+            "https://github.com/Eduard-Benedic/book-list",
+            "https://github.com/Eduard-Benedic/loan-calculator",
+            "https://github.com/Eduard-Benedic/github-finder"
           ],
           images: [img4, img5, img6]
         },
         {
           title: "Technologies",
           technologies: [["React", "ES6", "Sass", "JavaScript"]],
-          links: ["https://eduard-benedic.github.io/book-list/"],
-          images: [img1, img2, img3]
+          linksProject: ["https://eduard-benedic.github.io/book-list/"],
+          linksGithub: ["https://github.com/Eduard-Benedic/book-list"],
+          images: [img7]
         }
       ],
       featureBox: [
         {
           title: "Interactive",
-          text:
-            "I design dynamic and interactive webpages to enrich the visitors experience.",
+          text: "I design dynamic and interactive webpages.",
           icon: "fas fa-space-shuttle"
         },
         {
           title: "Responsive ",
-          text:
-            "My websites are carefully crafted for every device regardless of the size",
+          text: "My websites are carefully crafted for every device",
           icon: "fas fa-mobile"
         },
         {
           title: "Fast",
-          text:
-            "Loading speed is a top priority. My websites are fast and lag free.",
+          text: "Speed is a top priority",
           icon: "fas fa-bolt"
         },
         {

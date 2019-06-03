@@ -11,9 +11,11 @@ class CardWrapper extends Component {
         <div className="card-wrapper">
           {card.technologies.map((uniqueCard, index) => (
             <Card
+              key={index}
               techs={uniqueCard}
               title={card.title}
-              link={card.links[index]}
+              link={card.linksProject[index]}
+              linkGit={card.linksGithub[index]}
               images={card.images[index]}
             />
           ))}

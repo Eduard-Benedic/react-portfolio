@@ -3,7 +3,7 @@ import "./Card.css";
 
 class Card extends Component {
   render() {
-    const { techs, title, link, images } = this.props;
+    const { techs, title, link, linkGit, images } = this.props;
 
     return (
       <div className="card-container">
@@ -13,8 +13,10 @@ class Card extends Component {
         <div className="card-body">
           <p className="card-paragraph">{title}</p>
           <ul className="card-list">
-            {techs.map(tech => (
-              <li className="card-item">{tech}</li>
+            {techs.map((tech, index) => (
+              <li className="card-item" key={index}>
+                {tech}
+              </li>
             ))}
           </ul>
         </div>
@@ -22,7 +24,7 @@ class Card extends Component {
           <a href={link} className="card-footer-link">
             Go Online
           </a>
-          <a href={link} className="card-footer-link">
+          <a href={linkGit} className="card-footer-link">
             Github
           </a>
         </div>

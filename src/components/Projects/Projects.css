@@ -1,7 +1,7 @@
 .projects {
-  padding-top: 5rem;
-  margin-top: 10rem;
-  margin-bottom: 20rem;
+  padding-top: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 12rem;
 }
 .react-tabs {
   -webkit-tap-highlight-color: transparent;
@@ -16,14 +16,12 @@
 
 .react-tabs__tab {
   display: inline-block;
-  border: 1px solid transparent;
-  border-bottom: none;
-  bottom: -1px;
   position: relative;
   list-style: none;
-  padding: 6px 12px;
+  padding: 2px 12px;
   cursor: pointer;
   transition: all 0.5s ease-in;
+  font-size: 1.1rem;
 }
 
 .react-tabs__tab--selected {
@@ -36,12 +34,6 @@
 .react-tabs__tab--disabled {
   color: GrayText;
   cursor: default;
-}
-
-.react-tabs__tab:focus {
-  box-shadow: 0 0 5px hsl(208, 99%, 50%);
-  border-color: hsl(208, 99%, 50%);
-  outline: none;
 }
 
 .react-tabs__tab:focus:after {
@@ -60,4 +52,10 @@
 
 .react-tabs__tab-panel--selected {
   display: block;
+}
+
+@media (max-width: 800px) {
+  .projects {
+    margin-bottom: 5rem;
+  }
 }
