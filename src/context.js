@@ -56,8 +56,8 @@ export class Provider extends Component {
         {
           title: "Technologies",
           technologies: [["React", "ES6", "Sass", "JavaScript"]],
-          linksProject: ["https://eduard-benedic.github.io/book-list/"],
-          linksGithub: ["https://github.com/Eduard-Benedic/book-list"],
+          linksProject: ["https://eduard-benedic.github.io/react-portfolio/"],
+          linksGithub: ["https://github.com/Eduard-Benedic/react-portfolio"],
           images: [img7]
         }
       ],
