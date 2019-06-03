@@ -2,16 +2,12 @@ import React, { Component } from "react";
 import FeatureBox from "./FeatureBox";
 import Bar from "./Bar/Bar";
 import "./About.css";
+import round from "./round-picture.jpg";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import { Consumer } from "../../context";
 
 class About extends Component {
-  constructor() {
-    super();
-    this.state = {};
-  }
-
   render() {
     return (
       <Consumer>
@@ -35,15 +31,11 @@ class About extends Component {
                 <Fade left>
                   <div className="introduction">
                     <div className="introduction-img">
-                      <img src="https://source.unsplash.com/random" alt="" />
+                      <img src={round} alt="" />
                     </div>
                     <div className="introduction-info">
                       {" "}
-                      <p className="introduction-text">
-                        {" "}
-                        I am a front end developer who loves to create high
-                        quality websites with a keen eye on details
-                      </p>
+                      <p className="introduction-text"> Few of my skills</p>
                     </div>
                   </div>
                 </Fade>

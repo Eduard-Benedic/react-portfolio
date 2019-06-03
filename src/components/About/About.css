@@ -61,6 +61,7 @@
 .skills {
   padding-top: 6rem;
   width: 100%;
+  margin: 0 auto;
 }
 @keyframes slideFromLeft {
   0% {
@@ -87,6 +88,9 @@
 
   .details {
     grid-template-columns: 1fr;
+  }
+  .skills {
+    padding-top: 1rem;
   }
 }
 
